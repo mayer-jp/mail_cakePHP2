@@ -36,21 +36,34 @@
  */
 class EmailConfig {
 
-	public $default = array(
+	public $contact = array(
+		'transport' => 'Smtp',
+		'host' => 'mayer.stars.ne.jp',
+		'timeout' => 30,
+		'username' => 'admin@mayer.stars.ne.jp',
+		'password' => 'dekadon01',
+		'to' => 'admin@mayer.stars.ne.jp',
+		'from' => array('admin@mayer.stars.ne.jp'),
+		//'subject' => '',
+		//'charset' => 'utf-8',
+		//'headerCharset' => 'utf-8',
+	);
+
+/*	public $default = array(
 		'transport' => 'Mail',
-		'from' => 'symbee.free@gmail.com',
+		'from' => 'you@localhost',
 		//'charset' => 'utf-8',
 		//'headerCharset' => 'utf-8',
 	);
 
 	public $smtp = array(
 		'transport' => 'Smtp',
-		'from' => array('symbee.free@gmail.com' => 'test mail'),
-		'host' => 'ssl://smtp.gmail.com',
-		'port' => 465,
+		'from' => array('site@localhost' => 'My Site'),
+		'host' => 'localhost',
+		'port' => 25,
 		'timeout' => 30,
-		'username' => 'symbee.free@gmail.com',
-		'password' => 'dekadon01F',
+		'username' => 'user',
+		'password' => 'secret',
 		'client' => null,
 		'log' => false,
 		//'charset' => 'utf-8',
@@ -86,6 +99,6 @@ class EmailConfig {
 		'log' => true,
 		//'charset' => 'utf-8',
 		//'headerCharset' => 'utf-8',
-	);
+	);*/
 
 }
