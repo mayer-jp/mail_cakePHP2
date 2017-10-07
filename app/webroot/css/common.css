@@ -305,7 +305,7 @@ input[type=submit] , button{
   border-style: none;
 }
 form .submit input[type=submit] , form button{
-  background:#FF767D;
+  background:#FF3C49;
   padding: 10px 50px;
   margin:20px 10px;
   color:#fff;
@@ -318,7 +318,7 @@ form {
   text-align:center;
 }
 form .submit input[type=submit], form button:hover {
-  background: #FF3C49;
+  background: #FF767D;
   box-shadow: none;
 }
 form button.correct:hover{
