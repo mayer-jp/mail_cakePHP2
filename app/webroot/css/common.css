@@ -98,6 +98,15 @@ ol,ul{
 共通
 */
 
+h2{
+  font-size:2em;
+  padding:20px;
+}
+
+.error{
+  padding:10px 20px;
+}
+
 a{
   outline:none;
 }
